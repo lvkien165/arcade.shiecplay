@@ -59,33 +59,33 @@ export default function RootLayout({
           `}
                 </Script>
 
-                <script
+                {/* <script
                     async
                     src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
                     crossOrigin="anonymous"
-                ></script>
+                ></script> */}
                 {/* banner 1 */}
-                <Script>
+                {/* <Script>
                     {`window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
     googletag.defineSlot('/55237200,23313244994/travelhalong/travelhalong_banner1', [300, 250], 'div-gpt-ad-1760350143693-0').addService(googletag.pubads());
 	googletag.pubads().enableSingleRequest();
 	googletag.enableServices();
   });`}
-                </Script>
+                </Script> */}
 
                 {/* banner 2 */}
-                <Script>
+                {/* <Script>
                     {`window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
     googletag.defineSlot('/55237200,23313244994/travelhalong/travelhalong_banner2', [320, 100], 'div-gpt-ad-1760351216806-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });`}
-                </Script>
+                </Script> */}
 
                 {/* ANCHOR chính chủ Google */}
-                <Script id="gpt-anchor">
+                {/* <Script id="gpt-anchor">
                     {`
   window.googletag = window.googletag || { cmd: [] };
   googletag.cmd.push(function() {
@@ -108,10 +108,10 @@ export default function RootLayout({
     googletag.enableServices();
   });
 `}
-                </Script>
+                </Script> */}
 
                 {/* INTERSTITIAL chính chủ Google */}
-                <Script id="gpt-interstitial">
+                {/* <Script id="gpt-interstitial">
                     {`
   window.googletag = window.googletag || { cmd: [] };
   googletag.cmd.push(function() {
@@ -131,13 +131,13 @@ export default function RootLayout({
     googletag.enableServices();
   });
 `}
-                </Script>
+                </Script> */}
             </head>
             <body className="antialiased bg-gradient-to-br from-gray-50 to-gray-100">
                 <Header />
 
                 {/* Banner 1 - Top banner */}
-                <div className="mt-20">
+                {/* <div className="mt-20">
                     <div
                         id="div-gpt-ad-1760350143693-0"
                         className="min-w-[300px] min-h-[250px]"
@@ -146,7 +146,7 @@ export default function RootLayout({
                             {`googletag.cmd.push(function() { googletag.display('div-gpt-ad-1760350143693-0'); });`}
                         </Script>
                     </div>
-                </div>
+                </div> */}
 
                 <main className="pt-20">{children}</main>
 
