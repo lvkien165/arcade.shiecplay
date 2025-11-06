@@ -1,0 +1,7 @@
+google.com, pub-3461252083669000, DIRECT, f08c47fec0942fa0
+
+<<<<<<< HEAD
+google.com, pub-8203384294527643, RESELLER, f08c47fec0942fa0
+=======
+google.com, pub-8203384294527643, RESELLER, f08c47fec0942fa0
+>>>>>>> ff03a5b2e28cdff0618b878192475d739219b8a9
