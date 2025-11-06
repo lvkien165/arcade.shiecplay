@@ -202,14 +202,14 @@ export default function Home() {
                 </div>
             </section>
             {/* banner 2 */}
-            {/* <div
-                id="div-gpt-ad-1760351216806-0"
+            <div
+                id="div-gpt-ad-1762415554528-0"
                 className="min-w-[300px] min-h-[250px]"
             >
                 <Script>
-                    {`googletag.cmd.push(function() { googletag.display('div-gpt-ad-1760351216806-0'); });`}
+                    {`googletag.cmd.push(function() { googletag.display('div-gpt-ad-1762415554528-0'); });`}
                 </Script>
-            </div> */}
+            </div>
 
             {/* Game Categories */}
             <section className="py-12 bg-gray-50 mt-4">
